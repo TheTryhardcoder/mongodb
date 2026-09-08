@@ -1,0 +1,9 @@
+const testDb = db.getSiblingDB("myDatabase");
+
+await testDb.users.insertOne({ name: "Rudransh", age: 25 });
+await testDb.users.insertOne({ RegNo: "PCEA24CR061" });
+await testDb.users.insertOne({ std_id: "PCEA24CR061" });
+
+const docs = await testDb.users.find().toArray();
+print("Count: " + docs.length);
+printjson(docs);

@@ -1,0 +1,25 @@
+(async () => {
+    const testDb = db.getSiblingDB("myDatabase");
+
+    await testDb.students.insertMany([
+        { studentId: 101, name: "Rahul Sharma", email: "rahul@gmail.com", department: "CSE", graduationYear: 2027, cgpa: 8.7, skills: ["Java", "MongoDB", "DSA"] },
+        { studentId: 102, name: "Priya Reddy", email: "priya@gmail.com", department: "ECE", graduationYear: 2027, cgpa: 9.1, skills: ["Python", "SQL", "MongoDB"] },
+        { studentId: 103, name: "Arjun Kumar", email: "arjun@gmail.com", department: "EEE", graduationYear: 2027, cgpa: 7.8, skills: ["C", "C++"] },
+        { studentId: 104, name: "Sneha Patel", email: "sneha@gmail.com", department: "IT", graduationYear: 2027, cgpa: 8.9, skills: ["Java", "Spring", "MongoDB", "SQL", "DSA"] },
+        { studentId: 105, name: "Kiran Reddy", email: "kiran@gmail.com", department: "CSE", graduationYear: 2028, cgpa: 8.2, skills: ["Python", "ML", "NumPy", "Pandas", "AI"] },
+        { studentId: 106, name: "Anjali Rao", email: "anjali@gmail.com", department: "ECE", graduationYear: 2027, cgpa: 8.5, skills: ["Java", "HTML", "CSS"] },
+        { studentId: 107, name: "Vikram Singh", email: "vikram@gmail.com", department: "EEE", graduationYear: 2028, cgpa: 7.6, skills: ["Python", "SQL", "PowerBI"] },
+        { studentId: 108, name: "Divya Nair", email: "divya@gmail.com", department: "IT", graduationYear: 2027, cgpa: 9.3, skills: ["Java", "Spring", "MongoDB", "Docker", "Git"] },
+        { studentId: 109, name: "Rohit Verma", email: "rohit@gmail.com", department: "CSE", graduationYear: 2027, cgpa: 8.0, skills: ["C++", "DSA", "Git"] },
+        { studentId: 110, name: "Meena Joshi", email: "meena@gmail.com", department: "ECE", graduationYear: 2028, cgpa: 8.8, skills: ["Python", "TensorFlow", "ML", "AI"] },
+        { studentId: 111, name: "Suresh Kumar", email: "suresh@gmail.com", department: "EEE", graduationYear: 2027, cgpa: 7.9, skills: ["Java", "SQL", "HTML"] },
+        { studentId: 112, name: "Pooja Sharma", email: "pooja@gmail.com", department: "IT", graduationYear: 2028, cgpa: 9.0, skills: ["Python", "Django", "MongoDB", "REST API"] },
+        { studentId: 113, name: "Amit Verma", email: "amit@gmail.com", department: "CSE", graduationYear: 2027, cgpa: 8.4, skills: ["Java", "DSA", "Spring"] },
+        { studentId: 114, name: "Lakshmi Devi", email: "lakshmi@gmail.com", department: "ECE", graduationYear: 2028, cgpa: 8.6, skills: ["Python", "SQL", "PowerBI", "Excel"] },
+        { studentId: 115, name: "Naveen Kumar", email: "naveen@gmail.com", department: "CSE", graduationYear: 2027, cgpa: 9.2, skills: ["Java", "MongoDB", "Spring", "DSA", "Git"] }
+    ]);
+
+    const docs = await testDb.students.find().toArray();
+    print("Count: " + docs.length);
+    printjson(docs);
+})();

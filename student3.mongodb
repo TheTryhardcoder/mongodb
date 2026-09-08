@@ -1,0 +1,13 @@
+(async () => {// older version must write
+    const testDb = db.getSiblingDB("myDatabase");// must write to work in vs
+
+    await testDb.sample.insertMany([
+        { name: "Ravi", age: 25, skills: ["java", "c"] },
+        { name: "raju", age: 27, skills: ["java", "python"] },
+        { name: "lmao", age: 23, skills: ["java", "4"] }
+    ]);
+
+    const docs = await testDb.sample.find().toArray();
+    print("Count: " + docs.length);
+    printjson(docs);
+})();
