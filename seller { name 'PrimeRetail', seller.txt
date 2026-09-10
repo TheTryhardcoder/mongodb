@@ -1,0 +1,1027 @@
+    seller: { name: 'PrimeRetail', sellerRating: 3.3 },
+    customer: { customerId: 'CUS0650', city: 'Delhi', state: 'West Bengal', age: 53 },
+    payment: { method: 'Net Banking', transactionId: 'TXNawrfl35afm' },
+    orderStatus: 'Processing',
+    orderDate: ISODate('2025-06-21T18:08:18.015Z'),
+    tags: [ 'premium', 'discount' ],
+    specifications: { warranty: '1 years', color: 'Silver', weight: 2.33 },
+    isFeatured: false,
+    createdAt: ISODate('2026-09-09T07:03:59.532Z')
+  },
+  {
+    _id: ObjectId('6aa104e6fbce91740ccd1c8e'),
+    productId: 'PROD04992',
+    productName: 'Adidas Feature Phone 4992',
+    category: 'Mobiles',
+    subCategory: 'Feature Phone',
+    brand: 'Adidas',
+    price: 93864,
+    discountPercentage: 18,
+    discountedPrice: 76968,
+    quantity: 4,
+    revenue: 307872,
+    rating: 1.8,
+    reviewCount: 3713,
+    stock: 295,
+    inStock: true,
+    seller: { name: 'SmartShop', sellerRating: 1.9 },
+    customer: { customerId: 'CUS0929', city: 'Delhi', state: 'Telangana', age: 50 },
+    payment: { method: 'Credit Card', transactionId: 'TXNh1pybz4e3l' },
+    orderStatus: 'Cancelled',
+    orderDate: ISODate('2024-08-16T12:49:36.760Z'),
+    tags: [ 'trending', 'discount' ],
+    specifications: { warranty: '2 years', color: 'Blue', weight: 1.44 },
+    isFeatured: false,
+    createdAt: ISODate('2026-09-09T07:04:06.042Z')
+  },
+  {
+    _id: ObjectId('6aa104c9fbce91740ccd0e36'),
+    productId: 'PROD01320',
+    productName: 'Samsung Microwave 1320',
+    category: 'Home Appliances',
+    subCategory: 'Microwave',
+    brand: 'Samsung',
+    price: 93825,
+    discountPercentage: 31,
+    discountedPrice: 64739,
+    quantity: 5,
+    revenue: 323695,
+    rating: 1,
+    reviewCount: 3503,
+    stock: 333,
+    inStock: true,
+    seller: { name: 'RetailHub', sellerRating: 1.6 },
+    customer: { customerId: 'CUS0131', city: 'Kochi', state: 'Delhi', age: 63 },
+    payment: { method: 'Net Banking', transactionId: 'TXN9e1b0rppv3' },
+    orderStatus: 'Delivered',
+    orderDate: ISODate('2024-09-26T16:06:31.210Z'),
+    tags: [ 'premium', 'discount' ],
+    specifications: { warranty: '3 years', color: 'White', weight: 1.55 },
+    isFeatured: false,
+    createdAt: ISODate('2026-09-09T07:03:37.854Z')
+  },
+  {
+    _id: ObjectId('6aa104e3fbce91740ccd1a11'),
+    productId: 'PROD04355',
+    productName: 'AmazonBasics Education 4355',
+    category: 'Books',
+    subCategory: 'Education',
+    brand: 'AmazonBasics',
+    price: 93809,
+    discountPercentage: 47,
+    discountedPrice: 49719,
+    quantity: 5,
+    revenue: 248595,
+    rating: 4.4,
+    reviewCount: 4092,
+    stock: 21,
+    inStock: true,
+    seller: { name: 'TechWorld', sellerRating: 2.4 },
+    customer: { customerId: 'CUS0132', city: 'Ahmedabad', state: 'Gujarat', age: 44 },
+    payment: { method: 'UPI', transactionId: 'TXNoto5q0pszf' },
+    orderStatus: 'Delivered',
+    orderDate: ISODate('2026-06-26T19:45:52.187Z'),
+    tags: [ 'new', 'budget' ],
+    specifications: { warranty: '3 years', color: 'White', weight: 4.62 },
+    isFeatured: false,
+    createdAt: ISODate('2026-09-09T07:04:03.790Z')
+  },
+  {
+    _id: ObjectId('6aa104d1fbce91740ccd0f5e'),
+    productId: 'PROD01616',
+    productName: 'Samsung iPhone 1616',
+    category: 'Mobiles',
+    subCategory: 'iPhone',
+    brand: 'Samsung',
+    price: 93806,
+    discountPercentage: 18,
+    discountedPrice: 76921,
+    quantity: 4,
+    revenue: 307684,
+    rating: 2,
+    reviewCount: 34,
+    stock: 164,
+    inStock: true,
+    seller: { name: 'DigitalMart', sellerRating: 2.6 },
+    customer: { customerId: 'CUS0310', city: 'Kochi', state: 'Telangana', age: 19 },
+    payment: { method: 'Cash on Delivery', transactionId: 'TXNciu07jc9s0' },
+    orderStatus: 'Processing',
+    orderDate: ISODate('2024-09-22T05:28:28.148Z'),
+    tags: [ 'popular', 'discount' ],
+    specifications: { warranty: '3 years', color: 'Blue', weight: 3.74 },
+    isFeatured: true,
+    createdAt: ISODate('2026-09-09T07:03:45.503Z')
+  },
+  {
+    _id: ObjectId('6aa104e1fbce91740ccd1718'),
+    productId: 'PROD03594',
+    productName: 'Sony Smartwatch 3594',
+    category: 'Electronics',
+    subCategory: 'Smartwatch',
+    brand: 'Sony',
+    price: 93805,
+    discountPercentage: 16,
+    discountedPrice: 78796,
+    quantity: 1,
+    revenue: 78796,
+    rating: 4.4,
+    reviewCount: 3422,
+    stock: 235,
+    inStock: true,
+    seller: { name: 'DigitalMart', sellerRating: 3.9 },
+    customer: {
+      customerId: 'CUS0301',
+      city: 'Hyderabad',
+      state: 'Karnataka',
+      age: 31
+    },
+    payment: { method: 'Debit Card', transactionId: 'TXN8l17kbd9i7' },
+    orderStatus: 'Returned',
+    orderDate: ISODate('2025-12-31T12:11:46.584Z'),
+    tags: [ 'discount', 'new' ],
+    specifications: { warranty: '1 years', color: 'Red', weight: 1.39 },
+    isFeatured: false,
+    createdAt: ISODate('2026-09-09T07:04:01.624Z')
+  },
+  {
+    _id: ObjectId('6aa104e6fbce91740ccd1ac8'),
+    productId: 'PROD04538',
+    productName: 'Adidas Programming 4538',
+    category: 'Books',
+    subCategory: 'Programming',
+    brand: 'Adidas',
+    price: 93787,
+    discountPercentage: 36,
+    discountedPrice: 60024,
+    quantity: 3,
+    revenue: 180072,
+    rating: 2.6,
+    reviewCount: 3620,
+    stock: 154,
+    inStock: true,
+    seller: { name: 'PrimeRetail', sellerRating: 5 },
+    customer: { customerId: 'CUS0367', city: 'Pune', state: 'Gujarat', age: 29 },
+    payment: { method: 'Cash on Delivery', transactionId: 'TXNh5ypx4o617' },
+    orderStatus: 'Returned',
+    orderDate: ISODate('2024-11-26T20:43:53.685Z'),
+    tags: [ 'premium', 'best-seller' ],
+    specifications: { warranty: '3 years', color: 'Blue', weight: 4.74 },
+    isFeatured: true,
+    createdAt: ISODate('2026-09-09T07:04:06.030Z')
+  },
+  {
+    _id: ObjectId('6aa104e6fbce91740ccd1b28'),
+    productId: 'PROD04634',
+    productName: 'Lenovo Android 4634',
+    category: 'Mobiles',
+    subCategory: 'Android',
+    brand: 'Lenovo',
+    price: 93762,
+    discountPercentage: 14,
+    discountedPrice: 80635,
+    quantity: 1,
+    revenue: 80635,
+    rating: 1.2,
+    reviewCount: 4514,
+    stock: 153,
+    inStock: true,
+    seller: { name: 'PrimeRetail', sellerRating: 4.9 },
+    customer: { customerId: 'CUS0226', city: 'Chennai', state: 'Delhi', age: 61 },
+    payment: { method: 'Debit Card', transactionId: 'TXNknpb5f4vrq' },
+    orderStatus: 'Shipped',
+    orderDate: ISODate('2025-01-15T12:21:51.436Z'),
+    tags: [ 'best-seller', 'discount' ],
+    specifications: { warranty: '1 years', color: 'Silver', weight: 2.97 },
+    isFeatured: true,
+    createdAt: ISODate('2026-09-09T07:04:06.032Z')
+  },
+  {
+    _id: ObjectId('6aa104e3fbce91740ccd1a9c'),
+    productId: 'PROD04494',
+    productName: 'Lenovo Cricket 4494',
+    category: 'Sports',
+    subCategory: 'Cricket',
+    brand: 'Lenovo',
+    price: 93761,
+    discountPercentage: 5,
+    discountedPrice: 89073,
+    quantity: 2,
+    revenue: 178146,
+    rating: 4.2,
+    reviewCount: 4841,
+    stock: 315,
+    inStock: true,
+    seller: { name: 'MegaStore', sellerRating: 3.4 },
+    customer: {
+      customerId: 'CUS0145',
+      city: 'Hyderabad',
+      state: 'Karnataka',
+      age: 37
+    },
+    payment: { method: 'UPI', transactionId: 'TXNvrdmfn43y7' },
+    orderStatus: 'Cancelled',
+    orderDate: ISODate('2026-04-24T17:03:20.551Z'),
+    tags: [ 'new', 'premium' ],
+    specifications: { warranty: '1 years', color: 'Silver', weight: 0.84 },
+    isFeatured: true,
+    createdAt: ISODate('2026-09-09T07:04:03.794Z')
+  },
+  {
+    _id: ObjectId('6aa104c9fbce91740ccd0d11'),
+    productId: 'PROD01027',
+    productName: 'Sony Programming 1027',
+    category: 'Books',
+    subCategory: 'Programming',
+    brand: 'Sony',
+    price: 93747,
+    discountPercentage: 27,
+    discountedPrice: 68435,
+    quantity: 3,
+    revenue: 205305,
+    rating: 1.9,
+    reviewCount: 983,
+    stock: 312,
+    inStock: true,
+    seller: { name: 'TechWorld', sellerRating: 1.6 },
+    customer: { customerId: 'CUS0907', city: 'Hyderabad', state: 'Delhi', age: 55 },
+    payment: { method: 'UPI', transactionId: 'TXN5tms4ggnjt' },
+    orderStatus: 'Returned',
+    orderDate: ISODate('2026-08-12T22:46:21.287Z'),
+    tags: [ 'discount', 'best-seller' ],
+    specifications: { warranty: '1 years', color: 'Blue', weight: 0.73 },
+    isFeatured: false,
+    createdAt: ISODate('2026-09-09T07:03:37.843Z')
+  },
+  {
+    _id: ObjectId('6aa104c9fbce91740ccd0e50'),
+    productId: 'PROD01346',
+    productName: 'HP Football 1346',
+    category: 'Sports',
+    subCategory: 'Football',
+    brand: 'HP',
+    price: 93708,
+    discountPercentage: 17,
+    discountedPrice: 77778,
+    quantity: 4,
+    revenue: 311112,
+    rating: 3,
+    reviewCount: 3295,
+    stock: 37,
+    inStock: true,
+    seller: { name: 'PrimeRetail', sellerRating: 2.8 },
+    customer: {
+      customerId: 'CUS0086',
+      city: 'Chennai',
+      state: 'West Bengal',
+      age: 44
+    },
+    payment: { method: 'Debit Card', transactionId: 'TXNme4qcvc8ps' },
+    orderStatus: 'Processing',
+    orderDate: ISODate('2025-01-14T14:58:36.699Z'),
+    tags: [ 'discount', 'popular' ],
+    specifications: { warranty: '1 years', color: 'Blue', weight: 1.59 },
+    isFeatured: false,
+    createdAt: ISODate('2026-09-09T07:03:37.856Z')
+  },
+  {
+    _id: ObjectId('6aa10497fbce91740ccd09b9'),
+    productId: 'PROD00171',
+    productName: 'Dell Fitness 171',
+    category: 'Sports',
+    subCategory: 'Fitness',
+    brand: 'Dell',
+    price: 93693,
+    discountPercentage: 0,
+    discountedPrice: 93693,
+    quantity: 5,
+    revenue: 468465,
+    rating: 1.7,
+    reviewCount: 565,
+    stock: 494,
+    inStock: true,
+    seller: { name: 'MegaStore', sellerRating: 4.1 },
+    customer: { customerId: 'CUS0186', city: 'Pune', state: 'Karnataka', age: 55 },
+    payment: { method: 'Credit Card', transactionId: 'TXNur7j2x9abw' },
+    orderStatus: 'Processing',
+    orderDate: ISODate('2026-06-30T05:26:57.200Z'),
+    tags: [ 'budget', 'new' ],
+    specifications: { warranty: '3 years', color: 'Red', weight: 1.23 },
+    isFeatured: true,
+    createdAt: ISODate('2026-09-09T07:02:47.252Z')
+  },
+  {
+    _id: ObjectId('6aa104e1fbce91740ccd17dd'),
+    productId: 'PROD03791',
+    productName: 'Boat Education 3791',
+    category: 'Books',
+    subCategory: 'Education',
+    brand: 'Boat',
+    price: 93686,
+    discountPercentage: 19,
+    discountedPrice: 75886,
+    quantity: 4,
+    revenue: 303544,
+    rating: 4.7,
+    reviewCount: 4658,
+    stock: 296,
+    inStock: true,
+    seller: { name: 'PrimeRetail', sellerRating: 2.5 },
+    customer: { customerId: 'CUS0393', city: 'Coimbatore', state: 'Delhi', age: 38 },
+    payment: { method: 'Net Banking', transactionId: 'TXNi20jggj7l9' },
+    orderStatus: 'Cancelled',
+    orderDate: ISODate('2026-03-22T18:27:40.669Z'),
+    tags: [ 'new', 'new' ],
+    specifications: { warranty: '3 years', color: 'Red', weight: 0.63 },
+    isFeatured: false,
+    createdAt: ISODate('2026-09-09T07:04:01.632Z')
+  },
+  {
+    _id: ObjectId('6aa104dffbce91740ccd1688'),
+    productId: 'PROD03450',
+    productName: 'Samsung Camera 3450',
+    category: 'Electronics',
+    subCategory: 'Camera',
+    brand: 'Samsung',
+    price: 93665,
+    discountPercentage: 9,
+    discountedPrice: 85235,
+    quantity: 2,
+    revenue: 170470,
+    rating: 5,
+    reviewCount: 3986,
+    stock: 120,
+    inStock: true,
+    seller: { name: 'TechWorld', sellerRating: 3.9 },
+    customer: {
+      customerId: 'CUS0530',
+      city: 'Hyderabad',
+      state: 'West Bengal',
+      age: 43
+    },
+    payment: { method: 'Cash on Delivery', transactionId: 'TXNkka70bwbjs' },
+    orderStatus: 'Processing',
+    orderDate: ISODate('2025-11-18T11:45:15.830Z'),
+    tags: [ 'premium', 'trending' ],
+    specifications: { warranty: '2 years', color: 'Black', weight: 4.71 },
+    isFeatured: false,
+    createdAt: ISODate('2026-09-09T07:03:59.541Z')
+  },
+  {
+    _id: ObjectId('6aa104c9fbce91740ccd0d05'),
+    productId: 'PROD01015',
+    productName: 'Nike Feature Phone 1015',
+    category: 'Mobiles',
+    subCategory: 'Feature Phone',
+    brand: 'Nike',
+    price: 93662,
+    discountPercentage: 25,
+    discountedPrice: 70247,
+    quantity: 4,
+    revenue: 280988,
+    rating: 2.4,
+    reviewCount: 2527,
+    stock: 12,
+    inStock: true,
+    seller: { name: 'DigitalMart', sellerRating: 2.3 },
+    customer: { customerId: 'CUS0055', city: 'Mumbai', state: 'Tamil Nadu', age: 21 },
+    payment: { method: 'UPI', transactionId: 'TXN38ytdqe7pf' },
+    orderStatus: 'Shipped',
+    orderDate: ISODate('2024-03-03T22:22:57.264Z'),
+    tags: [ 'limited-stock', 'popular' ],
+    specifications: { warranty: '2 years', color: 'Red', weight: 0.59 },
+    isFeatured: true,
+    createdAt: ISODate('2026-09-09T07:03:37.843Z')
+  },
+  {
+    _id: ObjectId('6aa104e6fbce91740ccd1baa'),
+    productId: 'PROD04764',
+    productName: 'Apple Speaker 4764',
+    category: 'Electronics',
+    subCategory: 'Speaker',
+    brand: 'Apple',
+    price: 93627,
+    discountPercentage: 3,
+    discountedPrice: 90818,
+    quantity: 2,
+    revenue: 181636,
+    rating: 2.6,
+    reviewCount: 4367,
+    stock: 270,
+    inStock: true,
+    seller: { name: 'RetailHub', sellerRating: 4.3 },
+    customer: { customerId: 'CUS0398', city: 'Pune', state: 'West Bengal', age: 20 },
+    payment: { method: 'Credit Card', transactionId: 'TXN4zenpbaf08' },
+    orderStatus: 'Delivered',
+    orderDate: ISODate('2025-05-24T17:52:07.537Z'),
+    tags: [ 'discount', 'premium' ],
+    specifications: { warranty: '3 years', color: 'Black', weight: 2.73 },
+    isFeatured: false,
+    createdAt: ISODate('2026-09-09T07:04:06.036Z')
+  },
+  {
+    _id: ObjectId('6aa104c9fbce91740ccd0ee7'),
+    productId: 'PROD01497',
+    productName: 'Sony Refrigerator 1497',
+    category: 'Home Appliances',
+    subCategory: 'Refrigerator',
+    brand: 'Sony',
+    price: 93596,
+    discountPercentage: 49,
+    discountedPrice: 47734,
+    quantity: 2,
+    revenue: 95468,
+    rating: 1.6,
+    reviewCount: 4303,
+    stock: 62,
+    inStock: true,
+    seller: { name: 'PrimeRetail', sellerRating: 1.8 },
+    customer: {
+      customerId: 'CUS0324',
+      city: 'Chennai',
+      state: 'Tamil Nadu',
+      age: 28
+    },
+    payment: { method: 'Cash on Delivery', transactionId: 'TXNmmvh2um31u' },
+    orderStatus: 'Returned',
+    orderDate: ISODate('2025-07-15T02:07:52.273Z'),
+    tags: [ 'new', 'limited-stock' ],
+    specifications: { warranty: '1 years', color: 'Red', weight: 1.84 },
+    isFeatured: true,
+    createdAt: ISODate('2026-09-09T07:03:37.863Z')
+  },
+  {
+    _id: ObjectId('6aa104dffbce91740ccd16b9'),
+    productId: 'PROD03499',
+    productName: 'Apple Fitness 3499',
+    category: 'Sports',
+    subCategory: 'Fitness',
+    brand: 'Apple',
+    price: 93576,
+    discountPercentage: 15,
+    discountedPrice: 79540,
+    quantity: 3,
+    revenue: 238620,
+    rating: 3.8,
+    reviewCount: 3548,
+    stock: 66,
+    inStock: true,
+    seller: { name: 'SmartShop', sellerRating: 3.6 },
+    customer: { customerId: 'CUS0174', city: 'Bangalore', state: 'Delhi', age: 27 },
+    payment: { method: 'UPI', transactionId: 'TXNxvu9gqubpa' },
+    orderStatus: 'Returned',
+    orderDate: ISODate('2024-09-15T09:52:55.912Z'),
+    tags: [ 'popular', 'discount' ],
+    specifications: { warranty: '1 years', color: 'Black', weight: 4.67 },
+    isFeatured: false,
+    createdAt: ISODate('2026-09-09T07:03:59.542Z')
+  }
+]
+Type "it" for more
+Atlas atlas-yz678l-shard-0 [primary] ecomDB> db.aggex.updateOne({productId:"PROD03499"}, {$inc:{stock:-1}})
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+Atlas atlas-yz678l-shard-0 [primary] ecomDB> db.aggex.findOne({productId:"PROD03499"}, {stock:1})
+{ _id: ObjectId('6aa104dffbce91740ccd16b9'), stock: 65 }
+Atlas atlas-yz678l-shard-0 [primary] ecomDB> db.aggex.updateOne({productId:"PROD00001"}, {$set:{price:999}})
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+Atlas atlas-yz678l-shard-0 [primary] ecomDB> db.aggex.updateOne({productId:"PROD0349"},{$set:{price:989}})
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 0,
+  modifiedCount: 0,
+  upsertedCount: 0
+}
+Atlas atlas-yz678l-shard-0 [primary] ecomDB> db.aggex.findOne({productId:"PROD03499"}, {stock:1})
+{ _id: ObjectId('6aa104dffbce91740ccd16b9'), stock: 65 }
+Atlas atlas-yz678l-shard-0 [primary] ecomDB> db.aggex.findOne({productId:"PROD03499"}, {price:1})
+{ _id: ObjectId('6aa104dffbce91740ccd16b9'), price: 93576 }
+Atlas atlas-yz678l-shard-0 [primary] ecomDB> db.aggex.findOne({productId:"PROD0349"}, {price:1})
+null
+Atlas atlas-yz678l-shard-0 [primary] ecomDB> db.aggex.updateOne({productId:"PROD03499"}, {$set:{price:989}})
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+Atlas atlas-yz678l-shard-0 [primary] ecomDB> db.aggex.findOne({productId:"PROD03499"}, {price:1})
+{ _id: ObjectId('6aa104dffbce91740ccd16b9'), price: 989 }
+Atlas atlas-yz678l-shard-0 [primary] ecomDB> db.aggex.updateOne({productId:"PROD00001"}, {$addToSet:{tags:"new"}})
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+Atlas atlas-yz678l-shard-0 [primary] ecomDB> db.aggex.updateOne({productId:"PROD03499"}, {$addToSet:{tags:"new"}})
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+Atlas atlas-yz678l-shard-0 [primary] ecomDB> db.aggex.findOne({productId:"PROD03499"}, {price:1})
+{ _id: ObjectId('6aa104dffbce91740ccd16b9'), price: 989 }
+Atlas atlas-yz678l-shard-0 [primary] ecomDB> db.aggex.findOne({productId:"PROD03499"}, {price:1})
+{ _id: ObjectId('6aa104dffbce91740ccd16b9'), price: 989 }
+Atlas atlas-yz678l-shard-0 [primary] ecomDB> db.aggex.findOne({productId:"PROD03499"})
+{
+  _id: ObjectId('6aa104dffbce91740ccd16b9'),
+  productId: 'PROD03499',
+  productName: 'Apple Fitness 3499',
+  category: 'Sports',
+  subCategory: 'Fitness',
+  brand: 'Apple',
+  price: 989,
+  discountPercentage: 15,
+  discountedPrice: 79540,
+  quantity: 3,
+  revenue: 238620,
+  rating: 3.8,
+  reviewCount: 3548,
+  stock: 65,
+  inStock: true,
+  seller: { name: 'SmartShop', sellerRating: 3.6 },
+  customer: { customerId: 'CUS0174', city: 'Bangalore', state: 'Delhi', age: 27 },
+  payment: { method: 'UPI', transactionId: 'TXNxvu9gqubpa' },
+  orderStatus: 'Returned',
+  orderDate: ISODate('2024-09-15T09:52:55.912Z'),
+  tags: [ 'popular', 'discount', 'new' ],
+  specifications: { warranty: '1 years', color: 'Black', weight: 4.67 },
+  isFeatured: false,
+  createdAt: ISODate('2026-09-09T07:03:59.542Z')
+}
+Atlas atlas-yz678l-shard-0 [primary] ecomDB> exit
+PS C:\Users\anjni\OneDrive\Desktop\mongodb> mongosh "mongodb+srv://startechno04_db_user:uNuZGQfl6myqOT8D@student.ovwbic2.mongodb.net/myDatabase"
+Current Mongosh Log ID: 6aa22c500a15ee0de7d40811
+Connecting to:          mongodb+srv://<credentials>@student.ovwbic2.mongodb.net/myDatabase?appName=mongosh+2.9.2
+Using MongoDB:          8.0.32
+Using Mongosh:          2.9.2
+mongosh 2.10.0 is available for download: https://www.mongodb.com/try/download/shell
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+Atlas atlas-yz678l-shard-0 [primary] myDatabase> use Index
+switched to db Index
+Atlas atlas-yz678l-shard-0 [primary] Index> load ("student9.mongodb")
+5000 documents inserted successfully into 'products' collection!
+true
+Atlas atlas-yz678l-shard-0 [primary] Index> db.Index.find({price: {gt:30000}})
+
+Atlas atlas-yz678l-shard-0 [primary] Index> db.aggex.find({price: {$gt: 30000}})
+
+Atlas atlas-yz678l-shard-0 [primary] Index> db.aggex.find({price: {$gt: 10000}})
+
+Atlas atlas-yz678l-shard-0 [primary] Index> show collections
+products
+Atlas atlas-yz678l-shard-0 [primary] Index> db.products.find({price: {$gt: 30000}})
+[
+  {
+    _id: ObjectId('6aa22e8e0a15ee0de7d40812'),
+    productId: 1,
+    name: 'Samsung Product 1',
+    category: 'Mobiles',
+    brand: 'Samsung',
+    price: 38613,
+    quantity: 5,
+    rating: 1.6,
+    description: 'This is a high quality Mobiles product from Samsung with excellent features and performance.',
+    tags: [ 'popular', 'premium' ],
+    seller: { sellerId: 1001, name: 'Seller 1', city: 'Bangalore' },
+    location: {
+      type: 'Point',
+      coordinates: [ 77.28112710014236, 11.349122121787143 ]
+    },
+    paymentMethods: [ 'UPI', 'Credit Card', 'Debit Card', 'Cash', 'Net Banking' ],
+    isActive: true,
+    createdAt: ISODate('2024-02-01T18:30:00.000Z')
+  },
+  {
+    _id: ObjectId('6aa22e8e0a15ee0de7d40814'),
+    productId: 3,
+    name: 'HP Product 3',
+    category: 'Clothing',
+    brand: 'HP',
+    price: 43292,
+    quantity: 3,
+    rating: 2,
+    description: 'This is a high quality Clothing product from HP with excellent features and performance.',
+    tags: [ 'premium', 'trending' ],
+    seller: { sellerId: 1003, name: 'Seller 3', city: 'Coimbatore' },
+    location: {
+      type: 'Point',
+      coordinates: [ 77.30172854319494, 11.022640973843673 ]
+    },
+    paymentMethods: [ 'UPI', 'Credit Card', 'Debit Card', 'Cash', 'Net Banking' ],
+    isActive: true,
+    createdAt: ISODate('2024-04-03T18:30:00.000Z'),
+    email: 'customer3@example.com'
+  },
+  {
+    _id: ObjectId('6aa22e8e0a15ee0de7d40815'),
+    productId: 4,
+    name: 'Lenovo Product 4',
+    category: 'Books',
+    brand: 'Lenovo',
+    price: 87787,
+    quantity: 10,
+    rating: 2.8,
+    description: 'This is a high quality Books product from Lenovo with excellent features and performance.',
+    tags: [ 'bestseller', 'featured' ],
+    seller: { sellerId: 1004, name: 'Seller 4', city: 'Salem' },
+    location: {
+      type: 'Point',
+      coordinates: [ 77.37676772257493, 11.013124326609175 ]
+    },
+    paymentMethods: [ 'UPI', 'Credit Card', 'Debit Card', 'Cash', 'Net Banking' ],
+    isActive: true,
+    createdAt: ISODate('2024-05-04T18:30:00.000Z'),
+    discount: 26
+  },
+  {
+    _id: ObjectId('6aa22e8e0a15ee0de7d40818'),
+    productId: 7,
+    name: 'Adidas Product 7',
+    category: 'Accessories',
+    brand: 'Adidas',
+    price: 65874,
+    quantity: 8,
+    rating: 1.5,
+    description: 'This is a high quality Accessories product from Adidas with excellent features and performance.',
+    tags: [ 'budget', 'popular' ],
+    seller: { sellerId: 1007, name: 'Seller 7', city: 'Madurai' },
+    location: {
+      type: 'Point',
+      coordinates: [ 76.99955029280261, 11.39488219873353 ]
+    },
+    paymentMethods: [ 'UPI', 'Credit Card', 'Debit Card', 'Cash', 'Net Banking' ],
+    isActive: true,
+    createdAt: ISODate('2024-08-07T18:30:00.000Z')
+  },
+  {
+    _id: ObjectId('6aa22e8e0a15ee0de7d40819'),
+    productId: 8,
+    name: 'Puma Product 8',
+    category: 'Home Appliances',
+    brand: 'Puma',
+    price: 65752,
+    quantity: 4,
+    rating: 2.6,
+    description: 'This is a high quality Home Appliances product from Puma with excellent features and performance.',
+    tags: [ 'new', 'discount' ],
+    seller: { sellerId: 1008, name: 'Seller 8', city: 'Trichy' },
+    location: {
+      type: 'Point',
+      coordinates: [ 77.16590616439215, 11.14460851577299 ]
+    },
+    paymentMethods: [ 'UPI', 'Credit Card', 'Debit Card', 'Cash', 'Net Banking' ],
+    isActive: true,
+    createdAt: ISODate('2024-09-08T18:30:00.000Z'),
+    discount: 8
+  },
+  {
+    _id: ObjectId('6aa22e8e0a15ee0de7d4081a'),
+    productId: 9,
+    name: 'OnePlus Product 9',
+    category: 'Sports',
+    brand: 'OnePlus',
+    price: 48815,
+    quantity: 8,
+    rating: 3.6,
+    description: 'This is a high quality Sports product from OnePlus with excellent features and performance.',
+    tags: [ 'popular', 'premium' ],
+    seller: { sellerId: 1009, name: 'Seller 9', city: 'Pondicherry' },
+    location: {
+      type: 'Point',
+      coordinates: [ 77.38218015463882, 11.110224381110129 ]
+    },
+    paymentMethods: [ 'UPI', 'Credit Card', 'Debit Card', 'Cash', 'Net Banking' ],
+    isActive: true,
+    createdAt: ISODate('2024-10-09T18:30:00.000Z'),
+    email: 'customer9@example.com'
+  },
+  {
+    _id: ObjectId('6aa22e8e0a15ee0de7d4081c'),
+    productId: 11,
+    name: 'Samsung Product 11',
+    category: 'Mobiles',
+    brand: 'Samsung',
+    price: 45019,
+    quantity: 9,
+    rating: 2.5,
+    description: 'This is a high quality Mobiles product from Samsung with excellent features and performance.',
+    tags: [ 'premium', 'trending' ],
+    seller: { sellerId: 1011, name: 'Seller 11', city: 'Bangalore' },
+    location: {
+      type: 'Point',
+      coordinates: [ 77.30392082649036, 11.224430477893835 ]
+    },
+    paymentMethods: [ 'UPI', 'Credit Card', 'Debit Card', 'Cash', 'Net Banking' ],
+    isActive: true,
+    createdAt: ISODate('2024-12-11T18:30:00.000Z')
+  },
+  {
+    _id: ObjectId('6aa22e8e0a15ee0de7d4081d'),
+    productId: 12,
+    name: 'Dell Product 12',
+    category: 'Laptops',
+    brand: 'Dell',
+    price: 60503,
+    quantity: 4,
+    rating: 2.8,
+    description: 'This is a high quality Laptops product from Dell with excellent features and performance.',
+    tags: [ 'bestseller', 'featured' ],
+    seller: { sellerId: 1012, name: 'Seller 12', city: 'Hyderabad' },
+    location: {
+      type: 'Point',
+      coordinates: [ 77.34610796582155, 11.02137569813328 ]
+    },
+    paymentMethods: [ 'UPI', 'Credit Card', 'Debit Card', 'Cash', 'Net Banking' ],
+    isActive: true,
+    createdAt: ISODate('2024-01-12T18:30:00.000Z'),
+    email: 'customer12@example.com',
+    discount: 5
+  },
+  {
+    _id: ObjectId('6aa22e8e0a15ee0de7d4081e'),
+    productId: 13,
+    name: 'HP Product 13',
+    category: 'Clothing',
+    brand: 'HP',
+    price: 73754,
+    quantity: 4,
+    rating: 3.1,
+    description: 'This is a high quality Clothing product from HP with excellent features and performance.',
+    tags: [ 'trending', 'budget' ],
+    seller: { sellerId: 1013, name: 'Seller 13', city: 'Coimbatore' },
+    location: {
+      type: 'Point',
+      coordinates: [ 77.24824736587972, 11.229733075703631 ]
+    },
+    paymentMethods: [ 'UPI', 'Credit Card', 'Debit Card', 'Cash', 'Net Banking' ],
+    isActive: true,
+    createdAt: ISODate('2024-02-13T18:30:00.000Z')
+  },
+  {
+    _id: ObjectId('6aa22e8e0a15ee0de7d40820'),
+    productId: 15,
+    name: 'Sony Product 15',
+    category: 'Furniture',
+    brand: 'Sony',
+    price: 47245,
+    quantity: 1,
+    rating: 3.1,
+    description: 'This is a high quality Furniture product from Sony with excellent features and performance.',
+    tags: [ 'budget', 'popular' ],
+    seller: { sellerId: 1015, name: 'Seller 15', city: 'Erode' },
+    location: {
+      type: 'Point',
+      coordinates: [ 77.17314851784155, 11.409849891355536 ]
+    },
+    paymentMethods: [ 'UPI', 'Credit Card', 'Debit Card', 'Cash', 'Net Banking' ],
+    isActive: false,
+    createdAt: ISODate('2024-04-15T18:30:00.000Z'),
+    email: 'customer15@example.com'
+  },
+  {
+    _id: ObjectId('6aa22e8e0a15ee0de7d40821'),
+    productId: 16,
+    name: 'Nike Product 16',
+    category: 'Shoes',
+    brand: 'Nike',
+    price: 44343,
+    quantity: 1,
+    rating: 2.5,
+    description: 'This is a high quality Shoes product from Nike with excellent features and performance.',
+    tags: [ 'new', 'discount' ],
+    seller: { sellerId: 1016, name: 'Seller 16', city: 'Tiruchengode' },
+    location: {
+      type: 'Point',
+      coordinates: [ 77.18439253152006, 11.237121722808647 ]
+    },
+    paymentMethods: [ 'UPI', 'Credit Card', 'Debit Card', 'Cash', 'Net Banking' ],
+    isActive: true,
+    createdAt: ISODate('2024-05-16T18:30:00.000Z'),
+    discount: 30
+  },
+  {
+    _id: ObjectId('6aa22e8e0a15ee0de7d40823'),
+    productId: 18,
+    name: 'Puma Product 18',
+    category: 'Home Appliances',
+    brand: 'Puma',
+    price: 30561,
+    quantity: 2,
+    rating: 4.5,
+    description: 'This is a high quality Home Appliances product from Puma with excellent features and performance.',
+    tags: [ 'discount', 'bestseller' ],
+    seller: { sellerId: 1018, name: 'Seller 18', city: 'Trichy' },
+    location: {
+      type: 'Point',
+      coordinates: [ 77.08988618460799, 11.096885780711206 ]
+    },
+    paymentMethods: [ 'UPI', 'Credit Card', 'Debit Card', 'Cash', 'Net Banking' ],
+    isActive: true,
+    createdAt: ISODate('2024-07-18T18:30:00.000Z'),
+    email: 'customer18@example.com'
+  },
+  {
+    _id: ObjectId('6aa22e8e0a15ee0de7d40825'),
+    productId: 20,
+    name: 'Apple Product 20',
+    category: 'Electronics',
+    brand: 'Apple',
+    price: 32723,
+    quantity: 8,
+    rating: 1.4,
+    description: 'This is a high quality Electronics product from Apple with excellent features and performance.',
+    tags: [ 'bestseller', 'featured' ],
+    seller: { sellerId: 1020, name: 'Seller 20', city: 'Chennai' },
+    location: {
+      type: 'Point',
+      coordinates: [ 77.14036190513004, 11.403963727618123 ]
+    },
+    paymentMethods: [ 'UPI', 'Credit Card', 'Debit Card', 'Cash', 'Net Banking' ],
+    isActive: false,
+    createdAt: ISODate('2024-09-20T18:30:00.000Z'),
+    discount: 14
+  },
+  {
+    _id: ObjectId('6aa22e8e0a15ee0de7d40826'),
+    productId: 21,
+    name: 'Samsung Product 21',
+    category: 'Mobiles',
+    brand: 'Samsung',
+    price: 42437,
+    quantity: 6,
+    rating: 3.9,
+    description: 'This is a high quality Mobiles product from Samsung with excellent features and performance.',
+    tags: [ 'trending', 'budget' ],
+    seller: { sellerId: 1021, name: 'Seller 21', city: 'Bangalore' },
+    location: {
+      type: 'Point',
+      coordinates: [ 77.35787493558696, 11.232758945948854 ]
+    },
+    paymentMethods: [ 'UPI', 'Credit Card', 'Debit Card', 'Cash', 'Net Banking' ],
+    isActive: true,
+    createdAt: ISODate('2024-10-21T18:30:00.000Z'),
+    email: 'customer21@example.com'
+  },
+  {
+    _id: ObjectId('6aa22e8e0a15ee0de7d40828'),
+    productId: 23,
+    name: 'HP Product 23',
+    category: 'Clothing',
+    brand: 'HP',
+    price: 60185,
+    quantity: 1,
+    rating: 3.9,
+    description: 'This is a high quality Clothing product from HP with excellent features and performance.',
+    tags: [ 'budget', 'popular' ],
+    seller: { sellerId: 1023, name: 'Seller 23', city: 'Coimbatore' },
+    location: {
+      type: 'Point',
+      coordinates: [ 77.29363579753314, 11.366544701891971 ]
+    },
+    paymentMethods: [ 'UPI', 'Credit Card', 'Debit Card', 'Cash', 'Net Banking' ],
+    isActive: true,
+    createdAt: ISODate('2024-12-23T18:30:00.000Z')
+  },
+  {
+    _id: ObjectId('6aa22e8e0a15ee0de7d40829'),
+    productId: 24,
+    name: 'Lenovo Product 24',
+    category: 'Books',
+    brand: 'Lenovo',
+    price: 57623,
+    quantity: 5,
+    rating: 2.2,
+    description: 'This is a high quality Books product from Lenovo with excellent features and performance.',
+    tags: [ 'new', 'discount' ],
+    seller: { sellerId: 1024, name: 'Seller 24', city: 'Salem' },
+    location: {
+      type: 'Point',
+      coordinates: [ 77.20771353577639, 11.47758479361332 ]
+    },
+    paymentMethods: [ 'UPI', 'Credit Card', 'Debit Card', 'Cash', 'Net Banking' ],
+    isActive: true,
+    createdAt: ISODate('2024-01-24T18:30:00.000Z'),
+    email: 'customer24@example.com',
+    discount: 27
+  },
+  {
+    _id: ObjectId('6aa22e8e0a15ee0de7d4082b'),
+    productId: 26,
+    name: 'Nike Product 26',
+    category: 'Shoes',
+    brand: 'Nike',
+    price: 43348,
+    quantity: 3,
+    rating: 4.8,
+    description: 'This is a high quality Shoes product from Nike with excellent features and performance.',
+    tags: [ 'discount', 'bestseller' ],
+    seller: { sellerId: 1026, name: 'Seller 26', city: 'Tiruchengode' },
+    location: {
+      type: 'Point',
+      coordinates: [ 77.36546094846676, 11.134430074368238 ]
+    },
+    paymentMethods: [ 'UPI', 'Credit Card', 'Debit Card', 'Cash', 'Net Banking' ],
+    isActive: true,
+    createdAt: ISODate('2024-03-26T18:30:00.000Z')
+  },
+  {
+    _id: ObjectId('6aa22e8e0a15ee0de7d4082d'),
+    productId: 28,
+    name: 'Puma Product 28',
+    category: 'Home Appliances',
+    brand: 'Puma',
+    price: 78042,
+    quantity: 3,
+    rating: 4.8,
+    description: 'This is a high quality Home Appliances product from Puma with excellent features and performance.',
+    tags: [ 'bestseller', 'featured' ],
+    seller: { sellerId: 1028, name: 'Seller 28', city: 'Trichy' },
+    location: {
+      type: 'Point',
+      coordinates: [ 77.3148667959692, 11.241502177752377 ]
+    },
+    paymentMethods: [ 'UPI', 'Credit Card', 'Debit Card', 'Cash', 'Net Banking' ],
+    isActive: true,
+    createdAt: ISODate('2024-04-30T18:30:00.000Z'),
+    discount: 11
+  },
+  {
+    _id: ObjectId('6aa22e8e0a15ee0de7d4082e'),
+    productId: 29,
+    name: 'OnePlus Product 29',
+    category: 'Sports',
+    brand: 'OnePlus',
+    price: 65200,
+    quantity: 1,
+    rating: 3.8,
+    description: 'This is a high quality Sports product from OnePlus with excellent features and performance.',
+    tags: [ 'trending', 'budget' ],
+    seller: { sellerId: 1029, name: 'Seller 29', city: 'Pondicherry' },
+    location: {
+      type: 'Point',
+      coordinates: [ 77.02684365187562, 11.217160462606305 ]
+    },
+    paymentMethods: [ 'UPI', 'Credit Card', 'Debit Card', 'Cash', 'Net Banking' ],
+    isActive: true,
+    createdAt: ISODate('2024-06-01T18:30:00.000Z')
+  },
+  {
+    _id: ObjectId('6aa22e8e0a15ee0de7d40830'),
+    productId: 31,
+    name: 'Samsung Product 31',
+    category: 'Mobiles',
+    brand: 'Samsung',
+    price: 52824,
+    quantity: 9,
+    rating: 4.5,
+    description: 'This is a high quality Mobiles product from Samsung with excellent features and performance.',
+    tags: [ 'budget', 'popular' ],
+    seller: { sellerId: 1031, name: 'Seller 31', city: 'Bangalore' },
+    location: {
+      type: 'Point',
+      coordinates: [ 77.24043892971967, 11.302598286570964 ]
+    },
+    paymentMethods: [ 'UPI', 'Credit Card', 'Debit Card', 'Cash', 'Net Banking' ],
+    isActive: true,
+    createdAt: ISODate('2024-08-03T18:30:00.000Z')
+  }
+]
+Type "it" for more
+Atlas atlas-yz678l-shard-0 [primary] Index> 
+db.products.countDocuments()
+
+db.products.find()
+
+
+db.products.find( { price : {$gt : 20000} } )
+
+db.products.find( { price : {$gt : 20000} } ).explain("executionStats")
+
+db.products.createIndex({price : 1})
+
+db.products.getIndexes()
+
+db.products.find( { price : {$gt : 20000} } ).explain("executionStats")
+
+
+
